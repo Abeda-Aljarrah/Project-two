@@ -1,0 +1,811 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-color: #F5EFE7;
+    width: 100%;
+    display: grid;
+}
+.navbar-collapse{
+    background-color: #2D4356;
+}
+nav{
+    background-color: #2D4356;
+    width: 100%;
+}
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+#logo{
+    float: left;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+}
+.nav-item{
+    float: right;
+}
+.nav-item a{
+    color: #A76F6F;
+    margin-top: 10px;
+}
+#profile-photo{
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    border: 4px solid #A76F6F;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+}
+#h1{
+    font-size: 80px;
+}
+.header{
+    text-align: center;
+    padding-top: 200px;
+    padding-left:30%;
+    color: #2D4356;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+}
+#description{
+    font-size: 24px;
+    padding-top: 5px;
+}
+#quote{
+    padding-top: 5px;
+}
+#Nietzsche{
+    padding-top: 3px;
+
+}
+#icon-links a{
+    color: #2D4356;
+}
+#icon-links{
+    text-align: center;
+}
+.fa-brands{
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+}
+#sec-div{
+    margin: 200px 200px 100px 200px;
+    border: #A76F6F solid 2px;
+}
+#third-div{
+    margin: 50px 50px;
+}
+.hr{
+    border: 1px solid #A76F6F;
+    width: 600px;
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.h2{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold !important;
+    background-color: #EAB2A0;
+    color: #2D4356;
+    width: 15%;
+    margin: auto;
+    margin-top: 30px;
+}
+#about-me-dis{
+    font-size: 30px;
+    padding: 20px;
+}
+.all-div{
+    padding-top: 50px;
+}
+.paragraph-header{
+    font-weight: bold;
+    font-size: 35px;
+    color: #2D4356;
+    margin: auto;
+    padding-left:5%;
+    padding-top: 20px;
+    /* display: inline-block; */
+}
+.paragraph-sub{
+    padding-left:5%;
+    font-size: 30px;
+    color: #2D4356;
+    /* display: inline-block; */
+}
+.paragraph-subsub{
+    padding-left:5%;
+    font-size: 24px;
+    color: #2D4356;
+    /* display: inline-block; */
+}
+#physics-gif{
+    float: right;
+    padding-right: 20px;
+    height: 400px;
+}
+#ul-info{
+    padding-left: 6%;
+    font-size: 24px;
+}
+
+#skill-dis{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 430px;
+    grid-gap: 100px;
+    margin: 50px 100px;
+}
+.ul-skills{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 24px;
+    border: #A76F6F 4px solid;
+    padding: 30px 30px;
+    width: 400px;
+    animation-name: skills;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes skills {
+    50%{box-shadow: 20px 20px #2D4356;}
+}
+.p-skills{
+    text-align: center;
+    color: #2D4356;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#teacher{
+    float: left;
+    width: 700px;
+    height: 700px;
+}
+.div-exper{
+    margin: 50px;
+}
+.teach-dis{
+    font-size: 24px;
+}
+#SOS{
+    float: right;
+    width: 35%;
+    height: 350px;
+    padding-right: 100px ;
+    margin: 60px;
+}
+.icon{
+    margin-right: 70px;
+    margin-left: 400px;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+#Languages-img{
+    float: right;
+    width: 30%;
+    height: 400px;
+    padding-left: 20px;
+    margin-right: 150px;
+}
+
+#Arabic{
+    border: solid 5px #A76F6F;
+    width: 40%;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: #2D4356 10px 10px;
+}
+
+#div-lang{
+    grid-template-columns: auto auto;
+}
+.pro{
+    border: 2px solid #2D4356;
+    margin-left: 100px;
+    width: 500px;
+    height: 20px;
+    background-color: #A76F6F;
+    transition: width 1s, height 2s;
+    margin: 20px;
+}
+.pro:hover{
+    width: 350px;
+}
+#English:hover{
+    width: 200px;
+}
+#wire{
+    float: left;
+    margin-left: 100px;
+    width: 650px;
+    height: 650px;
+    margin-right: 100px;
+    border: #A76F6F 4px solid;
+}
+#projects-dis{
+    margin-top: 200px;
+}
+#project-link{
+    margin-top: 100px;
+    margin-right: 300px;
+}
+.hr-final{
+    border: 1px solid #A76F6F;
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+}
+#matter{
+    background-color: white;
+    border: #A76F6F 10px solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: 30px;
+    padding-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 20px 10px #2D4356 ;
+}
+#research{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#research-link{
+    margin-left: 80px;
+}
+#References-dis{
+    display: grid;
+    grid-template-columns: 250px 260px 250px 250px 250px;
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    grid-template-rows: auto auto;
+    /* justify-items: center; */
+    grid-gap: 30px;
+}
+.r{
+    border: #A76F6F solid 6px;
+    padding: 20px;
+    color: #2D4356;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+.name{
+    font-size: 20px;
+}
+#footer{
+    width: 100%;
+    height: 250px;
+    background-color: #2D4356;
+    color: #F5EFE7;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#logo-footer{
+    float: left;
+    width: 300px;
+    height: 90px;
+    margin: 80px;
+}
+.contact-me{
+    padding-top: 50px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+.location{
+    display: inline;
+}
+#contact{
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.svg{
+    margin-right: 10px;
+}
+.p-svg{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:480px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    #body{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 150px;
+        background-color: #2D4356;
+    }
+    .navbar-nav > li{
+        padding-left:20px;
+        padding-right:20px;
+      }
+    #logo{
+        float: left;
+        width: 200px;
+        height: 60px;
+        margin: 10px;
+    }
+    #profile-photo{
+        grid-column: 1/3;
+        text-align: center;
+        margin-left: 200px;
+        width: 900px;
+        height: 900px;
+        border: 4px solid #A76F6F;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    #div-header{
+        text-align: center;
+    }
+    .header{
+        padding-top: 900px;
+        text-align: center;
+        color: #2D4356;
+        font-weight: bold;
+        font-family: 'Fredoka', sans-serif;
+    }
+    #description{
+        font-size: 24px;
+        padding: 5px;
+        text-align: center;
+    }
+    #h1{
+        padding-left: 20px;
+        font-size: 80px;
+        text-align: center;
+    }
+    #description{
+        font-size: 50px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    #quote{
+        padding-left: 10px;
+        font-size: 40px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    #Nietzsche{
+        padding-left: 50px;
+        font-size:40px;
+        padding-top: 3px;
+        text-align: center;
+    
+    }
+    #about-me-dis{
+        font-size: 40px;
+        padding: 20px;
+    }
+    #about-me{
+        font-size: 50px;
+        width: 300px;
+    }
+    #sec-div{
+        margin: 100px 100px 100px 100px;
+        border: #A76F6F solid 2px;
+    }
+    #education{
+        font-size: 50px;
+        width: 300px;
+    }
+    .paragraph-header{
+        font-weight: bold;
+        font-size: 50px;
+        color: #2D4356;
+        margin: auto;
+        padding-left:5%;
+        padding-top: 20px;
+    }
+    .paragraph-sub{
+        padding-left:5%;
+        font-size: 50px;
+        color: #2D4356;
+    }
+    .paragraph-subsub{
+        padding-left:5%;
+        font-size: 40px;
+        color: #2D4356;
+    }
+    #ul-info{
+        padding-left: 6%;
+        font-size: 30px;
+    }
+    #skills{
+        font-size: 50px;
+        width: 300px;
+    }
+    #skill-dis{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin: 50px 100px;
+    }
+    .ul-skills{
+        margin-top: 50px;
+        margin-left: 100px;
+        font-size: 24px;
+        padding-left: 50px;
+        padding-bottom: 70px;
+        width: 400px;
+        border: 20px solid #A76F6F;
+    }
+    .p-skills{
+        font-size: 50px;
+    }
+    li{
+        font-size: 40px;
+    }
+    #teacher{
+        float: left;
+        width: 650px;
+        height: 900px;
+        margin-top: 80px;
+    }
+    .teach-dis{
+        font-size: 35px;
+    }
+    .div-exper{
+        margin: 50px;
+    }
+    #SOS{
+        float: right;
+        width: 35%;
+        height: 350px;
+        padding-right: 100px ;
+        margin-top: 100px;
+    }
+    .icon{
+        margin-right: 70px;
+        margin-left: 100px;
+        float: left;
+        height: 200px;
+        width: 200px;
+    }
+    #div-courses #subsub{
+        padding-left: 370px;
+    }
+    #Languages-img{
+        float: right;
+        width: 500px;
+        height: 500px;
+        padding-left: 20px;
+        margin-right: 100px;
+    }
+    #Arabic{
+        border: solid 5px #A76F6F;
+        width: 45%;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        box-shadow: #2D4356 10px 10px;
+    }
+    
+    #div-lang{
+        grid-template-columns: auto auto;
+    }
+    .pro{
+        border: 2px solid #2D4356;
+        margin-left: 100px;
+        width: 500px;
+        height: 20px;
+        background-color: #A76F6F;
+        transition: width 1s, height 2s;
+        margin: 20px;
+    }
+    .pro:hover{
+        width: 350px;
+    }
+    #English:hover{
+        width: 200px;
+    }
+    #wire{
+        float: left;
+        margin-left: 100px;
+        width: 650px;
+        height: 650px;
+        margin-right: 100px;
+        border: #A76F6F 4px solid;
+    }
+    
+    #experience{
+        font-size: 50px;
+        width: 300px;
+    }
+    #volunteering{
+        font-size: 50px;
+        width: 300px;
+    }
+    #courses{
+        font-size: 50px;
+        width: 300px;
+    }
+    #languages{
+        font-size: 50px;
+        width: 300px;
+    }
+    #Projects{
+        font-size: 50px;
+        width: 300px;
+    }
+    #references{
+        font-size: 50px;
+        width: 300px;
+    }
+    #wire{
+        margin-left: 100px;
+        width: 650px;
+        height: 650px;
+        margin-right: 100px;
+        border: #A76F6F 4px solid;
+    }
+    #projects-dis{
+        margin-top: 50px;
+    }
+    .hr-final{
+        border: 1px solid #A76F6F;
+        width: 600px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-left: 450px;
+    }
+    #matter{
+        background-color: white;
+        border: #A76F6F 10px solid;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        font-size: 40px;
+        padding-left: 10px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-shadow: 20px 10px #2D4356 ;
+    }
+    #research{
+        text-align: center;
+    }
+    #research-link{
+        margin-left: 80px;
+    }
+    #project-link{
+        font-size: 30px;
+    }
+    #research-link{
+        font-size: 30px;
+    }
+    #References-dis{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .r{
+        font-size: 40px;
+    }
+    .name{
+        font-size: 50px;
+    } 
+    #footer{
+        width: 100%;
+        height: 300px;
+        background-color: #2D4356;
+        color: #F5EFE7;
+        font-size: 35px;
+        display: grid;
+        grid-template-columns: auto auto auto 200px;
+    }
+    #logo-footer{
+        float: left;
+        width: 200px;
+        height: 100px;
+        margin-top: 50px;
+    }
+    .contact-me{
+        padding-top: 50px;
+        margin-right: 10px;
+    }
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 300,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    .location{
+        display: inline;
+    }
+    #contact{
+        margin-right: 20px;
+        padding-top: 100px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .svg{
+        margin-right: 10px;
+    }
+    .p-svg{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    #body{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 150px;
+        background-color: #2D4356;
+    }
+    .navbar-nav > li{
+        padding-left:20px;
+        padding-right:20px;
+      }
+    #logo{
+        float: left;
+        width: 200px;
+        height: 60px;
+        margin: 10px;
+    }
+    #description{
+        font-size: 30px;
+        padding-top: 5px;
+    }
+    #quote{
+        font-size: 28px;
+        padding-top: 5px;
+    }
+    #Nietzsche{
+        font-size: 24px;
+        padding-top: 3px;
+    
+    }
+    #about-me-dis{
+        font-size: 30px;
+        padding: 20px;
+    }
+    #about-me{
+        font-size: 50px;
+        width: 300px;
+    }
+    #sec-div{
+        margin: 100px 100px 100px 100px;
+        border: #A76F6F solid 2px;
+    }
+    #education{
+        font-size: 50px;
+        width: 300px;
+    }
+    .paragraph-header{
+        font-weight: bold;
+        font-size: 50px;
+        color: #2D4356;
+        margin: auto;
+        padding-left:5%;
+        padding-top: 20px;
+    }
+    .paragraph-sub{
+        padding-left:5%;
+        font-size: 50px;
+        color: #2D4356;
+    }
+    .paragraph-subsub{
+        padding-left:5%;
+        font-size: 30px;
+        color: #2D4356;
+    }
+    #ul-info{
+        padding-left: 6%;
+        font-size: 30px;
+    }
+    #skills{
+        font-size: 50px;
+        width: 300px;
+    }
+    #skill-dis{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin: 50px 100px;
+    }
+    .ul-skills{
+        margin-top: 50px;
+        margin-left: 100px;
+        font-size: 24px;
+        padding-left: 50px;
+        padding-bottom: 70px;
+        width: 400px;
+    }
+    .p-skills{
+        font-size: 50px;
+    }
+    li{
+        font-size: 40px;
+    }
+    #teacher{
+        width: 600px;
+        height: 800px;
+    }
+    .icon{
+        margin-right: 70px;
+        margin-left: 100px;
+        float: left;
+        height: 200px;
+        width: 200px;
+    }
+    #experience{
+        font-size: 50px;
+        width: 300px;
+    }
+    #volunteering{
+        font-size: 50px;
+        width: 300px;
+    }
+    #courses{
+        font-size: 50px;
+        width: 300px;
+    }
+    #languages{
+        font-size: 50px;
+        width: 300px;
+    }
+    #Projects{
+        font-size: 50px;
+        width: 300px;
+    }
+    #references{
+        font-size: 50px;
+        width: 300px;
+    }
+    #wire{
+        margin-left: 100px;
+        width: 650px;
+        height: 650px;
+        margin-right: 100px;
+        border: #A76F6F 4px solid;
+    }
+    #projects-dis{
+        margin-top: 200px;
+    }
+    #project-link{
+        font-size: 30px;
+    }
+    #research-link{
+        font-size: 30px;
+    }
+    #References-dis{
+        display: grid;
+        grid-template-columns: 600px 600px;
+    }
+    .r{
+        font-size: 28px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    
+}
+
+
+
